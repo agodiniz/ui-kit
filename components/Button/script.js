@@ -4,7 +4,7 @@ const appearance = button.getAttribute('appearance')
 //Change button appearance
 function changeButton() {
     button.setAttribute('appearance', 'primary')
-    button.innerText = "Label"
+    button.innerText = "Commit test"
 }
 
 changeButton();
